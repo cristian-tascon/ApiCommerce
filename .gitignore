@@ -1,0 +1,40 @@
+# Visual Studio y Rider
+.vs/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Archivos de compilación
+bin/
+obj/
+out/
+
+# Dependencias de NuGet
+packages/
+project.lock.json
+project.assets.json
+# Si usas .NET Core
+**/Properties/launchSettings.json
+
+# Archivos de logs
+logs/
+*.log
+
+# Secretos de usuario
+secrets.json
+.env
+
+# Configuración de depuración de Visual Studio Code
+.vscode/
+
+# Entity Framework Migrations (opcional)
+Migrations/
+
+# npm / Frontend
+node_modules/
+dist/
+
+# Docker (si lo usas)
+docker-compose.override.yml
